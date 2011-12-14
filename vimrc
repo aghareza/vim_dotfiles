@@ -29,3 +29,8 @@ map <leader>fr :CommandTFlush<CR>
 map <silent> <LocalLeader>nt :NERDTreeToggle<CR>
 map <silent> <LocalLeader>nr :NERDTree<CR>
 map <silent> <LocalLeader>nf :NERDTreeFind<CR>
+
+autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+autocmd BufRead,InsertLeave * match ExtraWhitespace /\s\+$/
+highlight ExtraWhitespace ctermbg=red guibg=red
+autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
