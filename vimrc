@@ -20,7 +20,6 @@ set t_Co=256
 
 colorscheme vibrantink
 
-" Clear Search
 map <leader>nh :noh<Enter>
 
 map <leader>ff :CommandT<CR>
