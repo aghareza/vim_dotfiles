@@ -25,9 +25,9 @@ map <leader>ff :CommandT<CR>
 map <leader>fb :CommandTBuffer<CR>
 map <leader>fr :CommandTFlush<CR>
 
-map <silent> <LocalLeader>nt :NERDTreeToggle<CR>
-map <silent> <LocalLeader>nr :NERDTree<CR>
-map <silent> <LocalLeader>nf :NERDTreeFind<CR>
+map <silent> <leader>nt :NERDTreeToggle<CR>
+map <silent> <leader>nr :NERDTree<CR>
+map <silent> <leader>nf :NERDTreeFind<CR>
 
 autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 autocmd BufRead,InsertLeave * match ExtraWhitespace /\s\+$/
