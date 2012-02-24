@@ -19,6 +19,8 @@ set smartcase
 
 colorscheme vibrantink
 
+map j gj
+map k gk
 map <leader>nh :noh<Enter>
 
 map <leader>ff :CommandT<CR>
