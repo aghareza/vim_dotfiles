@@ -16,6 +16,7 @@ set ruler
 set wrap
 set ignorecase
 set smartcase
+set encoding=utf-8
 
 colorscheme vibrantink
 
