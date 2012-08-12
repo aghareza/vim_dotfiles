@@ -20,8 +20,15 @@ set encoding=utf-8
 
 colorscheme vibrantink
 
+let g:CommandTMaxHeight = 15
+let g:CommandTMatchWindowAtTop = 1
+let g:CommandTCancelMap     = ['<ESC>', '<C-c>']
+let g:CommandTSelectNextMap = ['<C-n>', '<C-j>', '<ESC>OB']
+let g:CommandTSelectPrevMap = ['<C-p>', '<C-k>', '<ESC>OA']
+
 map j gj
 map k gk
+map Y y$
 map <leader>nh :noh<Enter>
 
 map <leader>ff :CommandT<CR>
@@ -31,6 +38,8 @@ map <leader>fr :CommandTFlush<CR>
 map <silent> <leader>nt :NERDTreeToggle<CR>
 map <silent> <leader>nr :NERDTree<CR>
 map <silent> <leader>nf :NERDTreeFind<CR>
+
+map <leader>lj :!luajit %<CR>
 
 autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 autocmd BufRead,InsertLeave * match ExtraWhitespace /\s\+$/
