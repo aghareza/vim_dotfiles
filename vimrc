@@ -31,9 +31,8 @@ map k gk
 map Y y$
 map <leader>nh :noh<Enter>
 
-map <leader>ff :CommandT<CR>
-map <leader>fb :CommandTBuffer<CR>
-map <leader>fr :CommandTFlush<CR>
+map <leader>ff :CtrlP<CR>
+map <leader>fb :CtrlPBuffer<CR>
 
 map <silent> <leader>nt :NERDTreeToggle<CR>
 map <silent> <leader>nr :NERDTree<CR>
