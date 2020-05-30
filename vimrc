@@ -20,12 +20,6 @@ set encoding=utf-8
 
 colorscheme vibrantink
 
-let g:CommandTMaxHeight = 15
-let g:CommandTMatchWindowAtTop = 1
-let g:CommandTCancelMap     = ['<ESC>', '<C-c>']
-let g:CommandTSelectNextMap = ['<C-n>', '<C-j>', '<ESC>OB']
-let g:CommandTSelectPrevMap = ['<C-p>', '<C-k>', '<ESC>OA']
-
 map j gj
 map k gk
 map Y y$
