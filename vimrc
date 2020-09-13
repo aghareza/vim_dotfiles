@@ -11,6 +11,7 @@ Plug 'elixir-editors/vim-elixir',       {'commit': '53c530f79cfcd12498e31fcf8ecc
 Plug 'ctrlpvim/ctrlp.vim',              {'commit': 'd93d97813dc839ef0782302a0debd7c4877f09f3'}
 Plug 'drewtempelmeyer/palenight.vim',   {'commit': 'f332f9efe73227a47c18bade892ac55682641733'}
 Plug 'vim-scripts/vibrantink',          {'commit': 'f7777656a73b7209b111e9cbd71945c315220500'}
+Plug 'leafgarland/typescript-vim',      {'commit': '9f247d7693cd12171239c56c355ba863f559f424'}
 call plug#end()
 
 filetype off
