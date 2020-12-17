@@ -52,3 +52,5 @@ highlight ExtraWhitespace ctermbg=red guibg=red
 autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 
 autocmd BufRead,BufNewFile *.ino set filetype=c
+
+let g:ale_set_highlights = 0
