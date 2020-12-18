@@ -13,6 +13,7 @@ Plug 'vim-scripts/vibrantink',          {'commit': 'f7777656a73b7209b111e9cbd719
 Plug 'leafgarland/typescript-vim',      {'commit': '9f247d7693cd12171239c56c355ba863f559f424'}
 Plug 'vim-airline/vim-airline-themes',  {'commit': '8f1aa2c7fa44bf33b1fd4678f9c7b40c126b0e2b'}
 Plug 'frazrepo/vim-rainbow',            {'commit': 'a6c7fd5a2b0193b5dbd03f62ad820b521dea3290'}
+Plug 'preservim/nerdcommenter',         {'commit': '119b99d1662113a588734e3666213d246e50900d'}
 call plug#end()
 
 filetype off
